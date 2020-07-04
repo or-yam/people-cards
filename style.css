@@ -1,0 +1,76 @@
+body {
+  background-color: #45eba5;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#peoples {
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 20px;
+  height: 200px;
+  width: 500px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 20px;
+  background-color: #1d566e;
+  color: #fff;
+  transition: 0.3s
+}
+
+.card:hover{
+  height: 220px;
+  width: 520px;
+}
+
+.profile-img {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #21aba5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img img {
+  border-radius: 50%;
+}
+
+.content {
+  padding: 10px;
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+}
+
+.name {
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+}
+
+.text {
+  align-self: center;
+  text-align: center;
+  font-size: larger;
+}
+
+.email,
+a {
+  text-decoration: none;
+  color: cyan;
+  text-align: center;
+}
+
+#error {
+  display: flex;
+  justify-content: center;
+}
